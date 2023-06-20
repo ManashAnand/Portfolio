@@ -1,4 +1,4 @@
-# JS Portfolio Website
+# React Portfolio Website
 
 [🔗Live Demo🔗](https://manash-folio.netlify.app/)
 
