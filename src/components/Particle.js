@@ -29,7 +29,7 @@ function Particle() {
             anim: {
               enable: true,
               speed: 1,
-              opacity_min: 0.05,
+              opacity_min: 0.9,
             },
           },
         },
@@ -37,17 +37,25 @@ function Particle() {
           events: {
             onclick: {
               enable: true,
-              mode: "push",
+              mode: "grab",
             },
+            onHover: {
+                enable: true,
+                mode: "grab",
+
+                distance: 400
+              },
           },
           modes: {
-            push: {
+            grab: {
               particles_nb: 1,
             },
           },
         },
         retina_detect: true,
       }}
+      // params={particleConfig}
+      // style={{zIndex:-1}}
     />
   );
 }
