@@ -4,9 +4,9 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import dalle from "../assets/projects/dalle.png";
 import crypto from "../assets/projects/crypto.png";
-import connectTo from "../assets/projects/connectTo.png";
-import news from "../assets/projects/news.png";
-import ecm from "../assets/projects/ecm.png";
+import hosteldaze from "../assets/projects/hosteldaze.png";
+import harryPotter from "../assets/projects/harryPotter.png";
+import strayInsight from "../assets/projects/strayInsight.png";
 import dine from '../assets/projects/dine.png'
 
 const Projects = () => {
@@ -23,11 +23,12 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={connectTo}
+              imgPath={hosteldaze}
               isBlog={false}
-              title="Connect-To"
-              description="Elevate your professional presence on our cutting-edge Connect-To app. Craft a compelling profile, connect with industry peers, and ignite meaningful conversations through engaging posts. Showcase your expertise, amplify your personal brand, and garner recognition with a seamless liking feature. Unleash the potential of networking, knowledge-sharing, and career growth with our platform designed for professionals like you."
-              ghLink="https://github.com/ManashAnand/Connect-To"
+              title="Hostel Daze"
+              description="Pioneered the visionary development of a state-of-the-art hostel room booking website, meticulously crafted for unparalleled seamlessness in accommodation processes. Upon successful implementation, this groundbreaking system not only showcases its prowess in efficiently managing the lodging requirements of over 1000 students within a singular hostel but also stands as a highly adaptable solution primed for extensive global utilization."
+              ghLink="https://github.com/ManashAnand/HostelDaze"
+              demoLink="https://hostel-daze.vercel.app/"
             />
           </Col>  
 
@@ -44,12 +45,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ecm}
+              imgPath={strayInsight}
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products. Razor pay is integrated to handle customer payments atleast showing the details. The website uses MongoDB  as the database."
-              ghLink="https://github.com/ManashAnand/Ecommerce-app"
-              demoLink="https://easy-tan-bighorn-sheep-cap.cyclic.app/"
+              title="Stray-Insights"
+              description="Trailblazed the creation of Stray Insights, a revolutionary decentralized web application designed for streamlined and transparent donation processes. This innovative platform, meticulously crafted, promises to redefine the landscape of philanthropy by offering a seamless and decentralized solution for charitable contributions. When deployed, Stray Insights not only enhances the efficiency of donation workflows but also ensures transparency and accountability in the distribution of funds."
+              ghLink="https://github.com/ManashAnand/Stray-Insights"
+              demoLink="https://strayinsights.netlify.app/"
             />
           </Col>
 
@@ -66,11 +67,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={news}
+              imgPath={harryPotter}
               isBlog={false}
-              title="News App"
-              description="Stay informed and connected with our dynamic news app, delivering an infinite stream of up-to-the-minute news updates. Dive into a vast array of topics, from global affairs to technology trends, and easily customize your news feed using intuitive filters. Whether you're seeking breaking news or in-depth analysis, our app provides a seamless browsing experience, ensuring you're always in the know. Explore the world of news at your fingertips and personalize your information journey with our comprehensive news app. "
-              ghLink="https://github.com/ManashAnand/NewsApp"
+              title="Harry Potter Wiki"
+              description="Embarked on the visionary development of the Harry Potter Wiki, an immersive web application meticulously curated to provide comprehensive character descriptions from the beloved Harry Potter series. Boasting a mind-blowing user interface, this enchanting platform elevates the exploration of each character, offering a visually stunning and user-friendly experience. From protagonists to supporting cast, the Harry Potter Wiki delivers an unparalleled journey into the wizarding world. "
+              ghLink="https://github.com/ManashAnand/HarryPotterWiki"
+              demoLink="https://harry-potter-wiki.vercel.app/"
             />
           </Col>
 

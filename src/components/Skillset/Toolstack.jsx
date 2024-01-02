@@ -8,6 +8,8 @@ import {
   SiNetlify
 } from "react-icons/si";
 
+import { FaAws } from "react-icons/fa";
+
 const Toolstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -24,7 +26,7 @@ const Toolstack = () => {
         <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <FaAws />
       </Col>
     </Row>
   );

@@ -7,7 +7,7 @@ import Type from '../components/Home/Type';
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Button from "react-bootstrap/Button";
-import pdf from "../assets/manash.pdf"
+import pdf from "../assets/manash1.pdf"
 
 
 const Home = () => {

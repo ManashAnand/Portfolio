@@ -7,14 +7,15 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiMaterialui,
+  SiTypescript ,
   SiGraphql,
   SiSolidity,
   SiRedux,
   SiMongodb,
   SiHtml5
 } from "react-icons/si";
-
+import { TbBrandNextjs } from "react-icons/tb";
+import { GrMysql } from "react-icons/gr";
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -40,13 +41,13 @@ const Techstack = () => {
         <SiGraphql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <TbBrandNextjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <GrMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiTypescript />
       </Col>
     </Row>
   );
