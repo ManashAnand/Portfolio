@@ -11,11 +11,10 @@ import {
   // AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineContacts
+  AiOutlineContacts,
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
+import { GiSkills } from "react-icons/gi";
 import { CgFileDocument } from "react-icons/cg";
-
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -40,7 +39,37 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} style={{borderRadius:"50%",height:"50px !important"}} className="img-fluid logo" alt="brand" />
+          <img
+            src={logo}
+            style={{
+              borderRadius: "30%",
+              aspectRatio: 1,
+              position: "relative",
+              top: "0px",
+              left: "27px",
+              width: "50px",
+              height: "50px",
+            }}
+            className="img-fluid logo"
+            alt="brand"
+          />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+            style={{
+              zIndex: "-1",
+            }}
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.042 21.672 13.684 16.6m0 0-2.51 2.225.569-9.47 5.227 7.917-3.286-.672ZM12 2.25V4.5m5.834.166-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243-1.59-1.59"
+            />
+          </svg>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -82,7 +111,7 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-{/* 
+            {/* 
             <Nav.Item>
               <Nav.Link
                 as={Link}
