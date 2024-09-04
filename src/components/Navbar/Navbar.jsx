@@ -7,6 +7,7 @@ import logo from "../../assets/s3.jpg";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
+import { SiDocusign } from "react-icons/si";
 import {
   // AiFillStar,
   AiOutlineHome,
@@ -111,16 +112,17 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-            {/* 
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                
+                <SiDocusign style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
