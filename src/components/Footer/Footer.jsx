@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMediumCircle
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -64,6 +65,17 @@ const Footer = () => {
                   aria-label="instagram"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@anandmanash321"
+                  style={{ color: "white" }}
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  aria-label="instagram"
+                >
+                  <AiFillMediumCircle />
                 </a>
               </li>
             </ul>
